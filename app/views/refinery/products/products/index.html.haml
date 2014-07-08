@@ -1,0 +1,11 @@
+- content_for :body do
+  .row
+    #products
+      - @products.each do |product|
+        .col-sm-4.col-md-3
+          .thumbnail
+            = link_to refinery.products_product_path(product) do
+              = image_fu product.photo
+            .caption
+              = link_to product.name, refinery.products_product_path(product)
+= render '/refinery/content_page'
