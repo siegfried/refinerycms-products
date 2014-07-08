@@ -21,6 +21,7 @@ en:
       products:
         show:
           other: Other Products
+          back_to_all_products: Back to all products
   activerecord:
     attributes:
       'refinery/products/product':

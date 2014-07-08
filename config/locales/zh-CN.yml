@@ -23,6 +23,7 @@ zh-CN:
       products:
         show:
           other: 其他 Products
+          back_to_all_products: 回到所有产品
   activerecord:
     attributes:
       'refinery/products/product':

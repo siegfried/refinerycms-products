@@ -1,7 +1,7 @@
 - content_for :body_content_title do
   = @product.name
 - content_for :side_body do
-  = link_to t('refinery.products.products.back_to_all_products'), refinery.products_products_path, class: 'btn btn-block btn-default'
+  = link_to t('refinery.products.products.show.back_to_all_products'), refinery.products_products_path, class: 'btn btn-block btn-default'
 - content_for :body do
   %section
     %p
