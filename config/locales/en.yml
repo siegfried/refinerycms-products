@@ -19,9 +19,9 @@ en:
             edit: Edit this product
             delete: Remove this product forever
       products:
+        all_products: All Products
         show:
           other: Other Products
-          back_to_all_products: Back to all products
   activerecord:
     attributes:
       'refinery/products/product':

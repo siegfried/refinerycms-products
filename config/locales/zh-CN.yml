@@ -21,9 +21,9 @@ zh-CN:
             edit: 编辑 product
             delete: 永久删除 product
       products:
+        all_products: 所有产品
         show:
           other: 其他 Products
-          back_to_all_products: 回到所有产品
   activerecord:
     attributes:
       'refinery/products/product':
