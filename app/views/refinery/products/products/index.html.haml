@@ -5,7 +5,7 @@
         .col-sm-4.col-md-3
           .thumbnail
             = link_to refinery.products_product_path(product) do
-              = image_fu product.photo
+              = image_fu product.photo, '300x140'
             .caption
               = link_to product.name, refinery.products_product_path(product)
 = render '/refinery/content_page'
